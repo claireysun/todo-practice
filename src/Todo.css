@@ -1,0 +1,139 @@
+.todo {
+    background-color: #a6779e;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    color: white;
+
+    min-height: 100vh;
+    position: relative;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.todo-container {
+    text-align: left;   
+    padding-left: 40px;
+    background-color:#ffffff33;
+    border-radius: 25px;
+
+    margin: 0%;
+    height: 60vh;
+    width: 48vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    overflow: scroll;
+}
+
+.todo-header {
+    position: absolute;
+}
+
+.todo-list {
+    position: absolute;
+    top: 215px;
+    bottom: 205px;
+    width: 42vh;
+
+    list-style: none;
+    padding-left: 25px;
+
+    text-align: left;
+    line-height: 0.30;
+
+    overflow: scroll;
+}
+
+.todo-item {
+    list-style: none;
+    padding-left: 0;
+
+    font-size: 20px;
+    font-weight: bold;
+    display:list-item;
+    list-style-position: outside;
+    list-style-type: '☻  ';
+}
+
+.todo-item:hover {
+    color: #452a40;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+input {
+    position: relative;
+    top: 52vh;
+    right: 2%;
+
+    width: 90%;
+    height: 4vh;
+
+    color: white;
+    font-weight: bold;
+    text-indent: 10px;
+
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color:#845c7d;
+}
+::placeholder {
+    color: #ffffff6f;
+    text-indent: 10px;
+}
+
+.middle-space {
+    margin: 0%;
+    height: 60vh;
+    width: 5vh;
+    background-color: transparent;
+}
+
+.completed-container {
+    text-align: left;
+    padding-left: 40px;
+    background-color:#ffffff33;
+    border-radius: 25px;
+
+    margin: 0%;
+    height: 60vh;
+    width: 48vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.completed-list {
+    position: absolute;
+    top: 215px;
+    bottom: 205px;
+    width: 42vh;
+
+    list-style: none;
+    padding-left: 25px;
+
+    text-align: left;
+    line-height: 0.30;
+
+    overflow: scroll;
+}
+
+.completed-item {
+    list-style: none;
+    padding-left: 0;
+
+    font-size: 20px;
+    font-weight: bold;
+    display:list-item;
+    list-style-position: outside;
+    list-style-type: '☻  ';
+}
